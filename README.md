@@ -27,6 +27,16 @@ For pattern recognition and algorithm, I needed to create an algorithm that woul
 
 So, after reviewing, I decided to use 2 for loops to ensure that all the numbers had gone through properly. The first loop would be the boundary for the end, while the second loop would be the numbers being swapped. Knowing this, I used i as outer loop and o as inner loop. I would then compare o and o+1 to see who was higher, and I would swap if higher. Originally, the swap did not work since I did not create a temporary third party variable to store one of the numbers. Due to this, it would instead copy the number over and then destroy the other number. After thinking about the problem, I then tried adding the temporary variable to act as a "save" which solved the issue. Then I needed it to end, so the algorithm would end once the first loop (i) reached the length of the list since that'd mean it sorted through every possible sort.
 I then asked AI to produce potential edge cases for the algorithm to test to ensure that they were met. The main case that was introduced was that the algorithm would keep attempting to sort even after the list was fully sorted. 
+TESTING SCREENSHOTS FOR EDGE CASES:
+REGULAR MIXED INPUT
+<img width="507" height="63" alt="image" src="https://github.com/user-attachments/assets/3d1a99c9-2a68-4955-b09e-984bea32d959" />
+WORST CASE REVERSE SORTED
+<img width="320" height="53" alt="image" src="https://github.com/user-attachments/assets/47d19096-74e0-4644-990b-51236be8ba02" />
+DUPLICATES
+<img width="344" height="48" alt="image" src="https://github.com/user-attachments/assets/18624847-f330-4dbc-8620-4431bf139c4d" />
+NEGATIVE NUMBERS
+<img width="331" height="43" alt="image" src="https://github.com/user-attachments/assets/7bd6f591-ca11-4842-a916-2b199b557d0c" />
+
 
 
 ## Steps to Run
